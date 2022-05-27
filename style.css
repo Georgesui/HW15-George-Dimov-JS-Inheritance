@@ -1,0 +1,25 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header__clock {
+	padding: 40px 20px;
+}
+
+.header__clock,
+.header__clock-second {
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+.header__clock-second,
+.header__clock-small {
+	padding: 30px 20px;
+}
+
+.header__clock-second.header__clock-small {
+	padding: 40px 20px;
+}
